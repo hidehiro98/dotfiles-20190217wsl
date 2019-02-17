@@ -45,3 +45,4 @@ export PATH=~/.local/bin:$PATH
 
 # for openssl
 export PATH=/usr/local/opt/openssl@1.1/bin:$PATH
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
